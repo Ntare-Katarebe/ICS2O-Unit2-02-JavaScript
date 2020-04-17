@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta name="decription" content="My JavaScript">
+  <meta name="keywords" content="Mths, website">
+  <meta name="author" content="Ntare Katarebe">
+  <title>java script </title>
+  </head>
+  <body>
+    <button onclick="myFunction6()">Change text</button>
+<p id="cat">Hi cat</p>
+<script>
+  function myFunction6 () {
+  document.getElementById("cat").innerHTML = "Hello World"
+  }
+</script>
+  
+  <button onclick="myFunction1()">Click me to change background color</button>
+  <p id="body"></p>
+  <script>
+function myFunction1() {
+  document.getElementsByTagName("body")[0].style.backgroundColor = "blue";
+}
+</script>
+<button onclick="document.getElementById('myimage').src='./images/Cooper.jpg'">Cooper</button>
+
+<img scr="./images/Cooper.jpg" id="myimage" width="200" length="200">
+
+<button onclick="document.getElementById('myimage').src='./images/mths.jpg'">mths</button>
+<br>
+<br>
+<button onclick="myFunction5()">Make appear</button>
+<p id="demo"></p>
+<script>
+  function myFunction5 () {
+    document.getElementById("demo").innerHTML = "Hello World"
+  }
+</script>
+
+<br>
+<button onclick="myFunction4()">Make dissapear</button>
+<script>
+function myFunction4 (){
+  document.getElementById("demo").style.display = "none";
+}
+</script>
+
+
+
+
+
+  </body>
+</html>
